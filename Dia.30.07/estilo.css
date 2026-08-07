@@ -1,0 +1,28 @@
+html {
+  background-color: #ffe4ec; /* rosa claro */
+  color: #d63384; /* rosa mais escuro para o texto */
+  text-align: center;
+}
+
+.teste {
+  background-color: #ffd6e7;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.input_generico {
+  background-color: #fff0f5;
+  border-color: #ff99c8;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.input_generico:focus {
+  background-color: #ffd6e7;
+  border-color: #ff4d94;
+  border-width: 2px;
+}
+.imagem_cookie {
+  width: 200px;
+}
