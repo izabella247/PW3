@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #3d2418;
+}
+
+
+
+header {
+    background-color: #5a3023;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin-bottom: 18px;
+    font-size: 32px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    color: #ffd8a8;
+}
+
+
+
+main {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.introducao {
+    margin-bottom: 30px;
+    color: #765548;
+}
+
+
+
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 250px;
+    padding: 15px;
+    border-radius: 15px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card h3 {
+    font-size: 21px;
+    margin: 15px 0 10px;
+}
+
+.card p {
+    line-height: 1.5;
+    min-height: 70px;
+    margin-bottom: 15px;
+}
+
+.card a {
+    display: inline-block;
+    background-color: #a05235;
+    color: white;
+
+    padding: 9px 20px;
+    border-radius: 20px;
+
+    text-decoration: none;
+}
+
+.card a:hover {
+    background-color: #713522;
+}
+
+
+
+
+footer {
+    background-color: #5a3023;
+    color: white;
+
+    text-align: center;
+    padding: 20px;
+
+    margin-top: 20px;
+}
